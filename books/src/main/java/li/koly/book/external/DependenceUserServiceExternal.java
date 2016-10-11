@@ -8,7 +8,7 @@ public class DependenceUserServiceExternal implements UserServiceExternal {
     @Override
     public User getUser(String name) {
         UserService userService = new UserService();
-        li.koly.user.module.User koly = userService.getUser("koly");
-        return new User(koly.getName(), koly.getPassword());
+        li.koly.user.module.User user = userService.getUser("koly");
+        return new User(user.getName(), user.getPassword());
     }
 }
