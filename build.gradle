@@ -3,6 +3,7 @@ allprojects {
     group 'li.koly'
     version '1.0-SNAPSHOT'
     sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 }
 
 subprojects {
